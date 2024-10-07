@@ -1,0 +1,256 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+section{
+    background-color: #1b1d1cee;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+header{
+    border: 2px solid black;
+}
+header h1{
+    color: whitesmoke;
+    text-align: center;
+}
+header span{
+    font-size: xx-large;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.tel{
+    position: absolute;
+    top: 100px;
+    border: 1px solid black;
+    height: 66vh;
+    width: 250px;
+    border-radius: 4px;
+}
+.acceuil{
+    background-color: #1b1d1cee;
+    padding: 2%;
+    text-align: center;
+}
+.acceuil b{
+    color: whitesmoke;text-transform: uppercase;
+}
+.msg{
+    background-color: #dfdfdfee;
+    width: 83%;
+    height: 10vh;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.msg1{
+    background-color: #dfdfdfee;
+    width: 83%;
+    height: 10vh;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.msg1 span{
+    background-color: whitesmoke;
+    padding: 4px;
+}
+.msg1 strong{
+    background-color: whitesmoke;
+    padding: 4px;
+    margin-left: 25px;
+    
+}
+.msg2{
+    background-color: #dfdfdfee;
+    width: 83%;
+    height: 14vh;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.msg2 strong{
+    margin-left: 10px;
+}
+.msg3{
+    background-color: #dfdfdfee;
+    width: 91%;
+    height: 27px;
+    margin-top: 11px;
+    margin-left: 10px;
+    text-align: center;
+    display: flex;
+    gap: 50px;
+    font-size: large;
+}
+.msg3 span{
+    margin-left: 25px;
+}
+main{
+    background-color: #1b1d1cee;
+    height: 50vh;
+    width: 100%;
+
+}
+.direction{
+    position: absolute;
+    left: 660px;
+    top: 200px;font-size: xx-large;
+    background-color: aliceblue;
+}
+.formulaire{
+    position: absolute;
+    right: 20px;
+    top: 195px;font-size: xx-large;
+    background-color: #1b1d1cee;
+    color: whitesmoke;
+    padding: 20px;
+    height: 250px;
+    z-index: 2;
+}
+.formulaire .formulaire1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.formulaire button{
+    margin-top: 25px;
+    border: none;
+    border: 1px solid black;
+    background-color: white;
+    width: 150px;
+    padding: 2px;
+    border-radius: 4px;
+    font-size: 17px;
+    font-variant: small-caps;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+footer{
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: #080808ee;
+    font-variant: small-caps;
+    display: flex;
+    gap: 50px;
+}
+footer a{
+    color: rgb(161, 159, 159);
+    margin-left:300px;
+    text-decoration: none;
+
+}
+footer .a{
+    margin-top: 25px;
+}
+footer b{
+    color: rgb(161, 159, 159);
+    cursor: pointer;
+    position: absolute;
+}
+.main2{
+    position: absolute;
+    left: 390px;
+    width: 50%;
+}
+table{
+    width: 100%;
+    background-color: #eee;
+    border-collapse: collapse;
+}
+tr,th{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black; 
+}
+@media (max-width: 712px)  {
+    section{
+        background-color: #1b1d1cee;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 20;
+    }
+    header{
+        border: 2px solid black;
+    }
+    header h1{
+        color: whitesmoke;
+        text-align: center;
+    }
+    header span{
+        font-size: xx-large;
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+   .tel{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+   } 
+   .dh{
+    width: 73.9vh;
+    height: 35%;
+   }
+   .direction{
+    margin-left: -430px;
+    margin-top: 350px;
+   }
+   
+   .item2 .formulaire{
+    margin-top: 520px;
+    height: 150px;
+    position: absolute;
+    left: 12.5px;
+   }
+ 
+   footer{
+    position: absolute;
+    top: 1000px;
+    flex-direction: column;
+    height: 200px;
+    gap: 10px;
+   }
+   footer a{
+    color: rgb(161, 159, 159);
+    margin-left:0px;
+    text-decoration: none;
+    }
+    footer .a{
+    margin-top: 15px;
+    
+}
+footer b{
+    margin-top: -10px;
+    color: rgb(161, 159, 159);
+    cursor: pointer;
+    position: absolute;
+}
+.main2{
+    margin-left: -300px;
+    margin-top: 150px;
+    background-image: url('footer-bg.jpg');
+}
+.main2 table{
+    width: 150%;
+    background-color: #eee;
+    border-collapse: collapse;
+}
+}
+   
+
+
+
